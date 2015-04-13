@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>0C65AD35-D636-4CBD-BD46-5F846D78EEE2</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>XYPieChartFramework</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>59E11140B87AB9288F00A1A0423D84FD77A15C9A</key>
 		<string>github.com:creisterer-db/XYPieChart.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>XYPieChartFramework/XYPieChartFramework.xcodeproj/project.xcworkspace</string>
+	<string>XYPieChartFramework/XYPieChartFramework.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>59E11140B87AB9288F00A1A0423D84FD77A15C9A</key>

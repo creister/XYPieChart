@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char XYPieChartFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <XYPieChartFramework/PublicHeader.h>
 
-
+#import <XYPieChartFramework/XYPieChart.h>

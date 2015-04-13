@@ -10,7 +10,7 @@
 		9C2D13581ADC21F800AC7640 /* XYPieChartFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C2D13571ADC21F800AC7640 /* XYPieChartFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C2D135E1ADC21F800AC7640 /* XYPieChartFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C2D13521ADC21F800AC7640 /* XYPieChartFramework.framework */; };
 		9C2D13651ADC21F800AC7640 /* XYPieChartFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D13641ADC21F800AC7640 /* XYPieChartFrameworkTests.m */; };
-		9C2D13701ADC227A00AC7640 /* XYPieChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C2D136E1ADC227A00AC7640 /* XYPieChart.h */; };
+		9C2D13701ADC227A00AC7640 /* XYPieChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C2D136E1ADC227A00AC7640 /* XYPieChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C2D13711ADC227A00AC7640 /* XYPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D136F1ADC227A00AC7640 /* XYPieChart.m */; };
 /* End PBXBuildFile section */
 
@@ -406,6 +406,7 @@
 				9C2D136A1ADC21F800AC7640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C2D136B1ADC21F800AC7640 /* Build configuration list for PBXNativeTarget "XYPieChartFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +415,7 @@
 				9C2D136D1ADC21F800AC7640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
