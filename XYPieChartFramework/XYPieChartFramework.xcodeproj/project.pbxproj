@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C2D13581ADC21F800AC7640 /* XYPieChartFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C2D13571ADC21F800AC7640 /* XYPieChartFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C2D135E1ADC21F800AC7640 /* XYPieChartFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C2D13521ADC21F800AC7640 /* XYPieChartFramework.framework */; };
+		9C2D13651ADC21F800AC7640 /* XYPieChartFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D13641ADC21F800AC7640 /* XYPieChartFrameworkTests.m */; };
+		9C2D13701ADC227A00AC7640 /* XYPieChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C2D136E1ADC227A00AC7640 /* XYPieChart.h */; };
+		9C2D13711ADC227A00AC7640 /* XYPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D136F1ADC227A00AC7640 /* XYPieChart.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C2D135F1ADC21F800AC7640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C2D13491ADC21F800AC7640 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C2D13511ADC21F800AC7640;
+			remoteInfo = XYPieChartFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C2D13521ADC21F800AC7640 /* XYPieChartFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XYPieChartFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C2D13561ADC21F800AC7640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C2D13571ADC21F800AC7640 /* XYPieChartFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYPieChartFramework.h; sourceTree = "<group>"; };
+		9C2D135D1ADC21F800AC7640 /* XYPieChartFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYPieChartFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C2D13631ADC21F800AC7640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C2D13641ADC21F800AC7640 /* XYPieChartFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYPieChartFrameworkTests.m; sourceTree = "<group>"; };
+		9C2D136E1ADC227A00AC7640 /* XYPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XYPieChart.h; path = ../../XYPieChart/XYPieChart.h; sourceTree = "<group>"; };
+		9C2D136F1ADC227A00AC7640 /* XYPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XYPieChart.m; path = ../../XYPieChart/XYPieChart.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C2D134E1ADC21F800AC7640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C2D135A1ADC21F800AC7640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C2D135E1ADC21F800AC7640 /* XYPieChartFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C2D13481ADC21F800AC7640 = {
+			isa = PBXGroup;
+			children = (
+				9C2D13541ADC21F800AC7640 /* XYPieChartFramework */,
+				9C2D13611ADC21F800AC7640 /* XYPieChartFrameworkTests */,
+				9C2D13531ADC21F800AC7640 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C2D13531ADC21F800AC7640 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C2D13521ADC21F800AC7640 /* XYPieChartFramework.framework */,
+				9C2D135D1ADC21F800AC7640 /* XYPieChartFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C2D13541ADC21F800AC7640 /* XYPieChartFramework */ = {
+			isa = PBXGroup;
+			children = (
+				9C2D136E1ADC227A00AC7640 /* XYPieChart.h */,
+				9C2D136F1ADC227A00AC7640 /* XYPieChart.m */,
+				9C2D13571ADC21F800AC7640 /* XYPieChartFramework.h */,
+				9C2D13551ADC21F800AC7640 /* Supporting Files */,
+			);
+			path = XYPieChartFramework;
+			sourceTree = "<group>";
+		};
+		9C2D13551ADC21F800AC7640 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C2D13561ADC21F800AC7640 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C2D13611ADC21F800AC7640 /* XYPieChartFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C2D13641ADC21F800AC7640 /* XYPieChartFrameworkTests.m */,
+				9C2D13621ADC21F800AC7640 /* Supporting Files */,
+			);
+			path = XYPieChartFrameworkTests;
+			sourceTree = "<group>";
+		};
+		9C2D13621ADC21F800AC7640 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C2D13631ADC21F800AC7640 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9C2D134F1ADC21F800AC7640 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C2D13581ADC21F800AC7640 /* XYPieChartFramework.h in Headers */,
+				9C2D13701ADC227A00AC7640 /* XYPieChart.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9C2D13511ADC21F800AC7640 /* XYPieChartFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C2D13681ADC21F800AC7640 /* Build configuration list for PBXNativeTarget "XYPieChartFramework" */;
+			buildPhases = (
+				9C2D134D1ADC21F800AC7640 /* Sources */,
+				9C2D134E1ADC21F800AC7640 /* Frameworks */,
+				9C2D134F1ADC21F800AC7640 /* Headers */,
+				9C2D13501ADC21F800AC7640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XYPieChartFramework;
+			productName = XYPieChartFramework;
+			productReference = 9C2D13521ADC21F800AC7640 /* XYPieChartFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C2D135C1ADC21F800AC7640 /* XYPieChartFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C2D136B1ADC21F800AC7640 /* Build configuration list for PBXNativeTarget "XYPieChartFrameworkTests" */;
+			buildPhases = (
+				9C2D13591ADC21F800AC7640 /* Sources */,
+				9C2D135A1ADC21F800AC7640 /* Frameworks */,
+				9C2D135B1ADC21F800AC7640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C2D13601ADC21F800AC7640 /* PBXTargetDependency */,
+			);
+			name = XYPieChartFrameworkTests;
+			productName = XYPieChartFrameworkTests;
+			productReference = 9C2D135D1ADC21F800AC7640 /* XYPieChartFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C2D13491ADC21F800AC7640 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "XY Studio";
+				TargetAttributes = {
+					9C2D13511ADC21F800AC7640 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					9C2D135C1ADC21F800AC7640 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 9C2D134C1ADC21F800AC7640 /* Build configuration list for PBXProject "XYPieChartFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9C2D13481ADC21F800AC7640;
+			productRefGroup = 9C2D13531ADC21F800AC7640 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C2D13511ADC21F800AC7640 /* XYPieChartFramework */,
+				9C2D135C1ADC21F800AC7640 /* XYPieChartFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C2D13501ADC21F800AC7640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C2D135B1ADC21F800AC7640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C2D134D1ADC21F800AC7640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C2D13711ADC227A00AC7640 /* XYPieChart.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C2D13591ADC21F800AC7640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C2D13651ADC21F800AC7640 /* XYPieChartFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C2D13601ADC21F800AC7640 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C2D13511ADC21F800AC7640 /* XYPieChartFramework */;
+			targetProxy = 9C2D135F1ADC21F800AC7640 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9C2D13661ADC21F800AC7640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C2D13671ADC21F800AC7640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C2D13691ADC21F800AC7640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = XYPieChartFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9C2D136A1ADC21F800AC7640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = XYPieChartFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9C2D136C1ADC21F800AC7640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XYPieChartFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C2D136D1ADC21F800AC7640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XYPieChartFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C2D134C1ADC21F800AC7640 /* Build configuration list for PBXProject "XYPieChartFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C2D13661ADC21F800AC7640 /* Debug */,
+				9C2D13671ADC21F800AC7640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C2D13681ADC21F800AC7640 /* Build configuration list for PBXNativeTarget "XYPieChartFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C2D13691ADC21F800AC7640 /* Debug */,
+				9C2D136A1ADC21F800AC7640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C2D136B1ADC21F800AC7640 /* Build configuration list for PBXNativeTarget "XYPieChartFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C2D136C1ADC21F800AC7640 /* Debug */,
+				9C2D136D1ADC21F800AC7640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C2D13491ADC21F800AC7640 /* Project object */;
+}
